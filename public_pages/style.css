@@ -25,7 +25,7 @@
 }
 .header {
     /* background-color: black; */
-    color: #D3D5D4;
+    color: white;
     padding: 10px;
     width: page;
     background-color: #005399;
@@ -42,16 +42,14 @@ a {
     text-decoration: none;
     padding: 14px 16px;
     color: #D3D5D4;
-    outline:rgb(33, 152, 37);
     border-radius: 10px;
     margin: 20px;
 }
-a:hover {
-    background-color: #444b65;
-    color: #D3D5D4;
+#navigation a:hover {
+    color: white;
+    background-color: #203561;
 }
 .sticky_image {
-    background-image: url("../src/_DSC4740.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -109,7 +107,7 @@ body {
 
 .houseteam_section img {
     margin: 50px;
-    height: 100%;
+    height: 80%;
     border-image: auto;
 }
 .houseteam_section a {
@@ -124,4 +122,8 @@ body {
     margin-right: 15%; */
     padding-left: 10px;
     padding-right: 5%;
+}
+.houseteam_section img:hover {
+    opacity: 50%;
+    transition-duration: .2s;
 }
