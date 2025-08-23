@@ -1,15 +1,4 @@
-/* @font-face {
-    font-family: "Assistant";
-    font-style: normal;
-    font-weight: 400;
-    src: url("../fonts/Assistant/static/Assistant-Regular.ttf") format("ttf");
-}
-@font-face {
-    font-family: "Assistant", sans-serif;
-    font-style: oblique;
-    font-weight: 700;
-    src: url("../fonts/Assistant/static/Assistant-Bold.ttf") format("ttf");
-} */
+
 #navigation {
     overflow: hidden;
     padding: 10px;
@@ -32,6 +21,9 @@
     /* background-color: none; */
     border-color: #D3D5D4;
     border-radius: 5 px;
+}
+#button {
+    background-color: seagreen;
 }
 img {
     display: block;
