@@ -79,6 +79,9 @@ body {
     height: 200px;
     text-align: center;
 }
+.footer a:hover {
+    color: white;
+}
 /* #housteam>.housteam_section>p{
     width: 50%;
     float:left;
@@ -126,4 +129,11 @@ body {
 .houseteam_section img:hover {
     opacity: 50%;
     transition-duration: .2s;
+}
+
+.page_header {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-shadow: 3px 3px #203561;
 }
