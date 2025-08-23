@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: "Assistant";
     font-style: normal;
     font-weight: 400;
@@ -9,7 +9,7 @@
     font-style: oblique;
     font-weight: 700;
     src: url("../fonts/Assistant/static/Assistant-Bold.ttf") format("ttf");
-}
+} */
 #navigation {
     overflow: hidden;
     padding: 10px;
