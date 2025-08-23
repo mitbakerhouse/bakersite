@@ -21,7 +21,7 @@
 }
 .currentPage {
     /* background-color: black; */
-    color: #D3D5D4;
+    color: white;
 }
 .header {
     /* background-color: black; */
@@ -35,7 +35,6 @@
 }
 img {
     display: block;
-    margin: auto;
 }
 a {
     /* background-color: rgb(52, 240, 58); */
@@ -82,14 +81,6 @@ body {
 .footer a:hover {
     color: white;
 }
-/* #housteam>.housteam_section>p{
-    width: 50%;
-    float:left;
-}
-#housteam>.housteam_section>img{
-    width: 50%;
-    float: right;
-} */
 #page_spacer {
     width: 100%;
     height: 500px;
@@ -107,30 +98,30 @@ body {
     border-radius: 20px;
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 .houseteam_section img {
-    margin: 50px;
     height: 80%;
     border-image: auto;
 }
 .houseteam_section a {
     text-decoration: underline;
+    padding: 0;
+    margin: 0;
 }
 .houseteam_section a:hover {
     background-color: None;
 }
-.houseteam_section p {
-    display: block;
-    /* margin-left: 15%;
-    margin-right: 15%; */
-    padding-left: 10px;
-    padding-right: 5%;
-}
+
 .houseteam_section img:hover {
     opacity: 50%;
     transition-duration: .2s;
 }
 
+.houseteam_section > * {
+    margin: 30px 30px;
+}
+.housteam_section p {
+    margin: 0 10px 0 10px;
+}
 .page_header {
     display: block;
     width: 100%;
