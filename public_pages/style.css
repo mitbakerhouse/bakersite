@@ -25,6 +25,9 @@
 #button {
     background-color: seagreen;
 }
+.special_button {
+    color: white;
+}
 img {
     display: block;
 }
