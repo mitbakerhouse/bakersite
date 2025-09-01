@@ -1,4 +1,7 @@
-
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
 #navigation {
     padding: 10px;
     background-color: #005399;
