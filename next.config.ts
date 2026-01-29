@@ -5,7 +5,6 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   output: 'export',
   // assetPrefix: "." 
-  basePath: "/bakersite",
   images: {
     unoptimized: true,
   },
