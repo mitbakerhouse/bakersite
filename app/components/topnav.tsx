@@ -1,10 +1,10 @@
 
 import Link from "next/link"
-
+import styles from "./topnav.module.css"
 
 const TopNav = () => {
     return (
-        <div id="navigation">
+        <div id="navigation" className={styles.topnav}>
             <Link href="/">Home</Link>
             {/* <a className="currentPage" href="index.html" target="_self">Home</a> */}
             <Link href="/about">About</Link>
